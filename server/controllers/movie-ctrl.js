@@ -13,7 +13,7 @@ createMovie = (req, res) => {
     const movie = new Movie(body);
 
     if (!movie) {
-        return res.status(400).json({ succes: false, error: err })
+        return res.status(400).json({ success: false, error: err })
     }
 
     movie
