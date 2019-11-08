@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-import logo from '../logo.svg'
+import logo from '../logo.svg';
 
 const Wrapper = styled.a.attrs({
     className: 'navbar-brand',
-})``
+})``;
 
 class Logo extends Component {
     render() {
@@ -17,4 +17,4 @@ class Logo extends Component {
     }
 }
 
-export default Logo
+export default Logo;
